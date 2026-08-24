@@ -1,0 +1,54 @@
+﻿ID;Epica;Titolo;Priorita;StoryPoints;Dipendenze;Stato;Sprint
+US-001;E01;Repository e struttura progetto;P0;3;nessuna;Da fare;Da assegnare
+US-002;E01;Configurazione ambienti;P0;3;US-001;Da fare;Da assegnare
+US-003;E01;Pipeline build e test;P1;5;US-001, US-002;Da fare;Da assegnare
+US-004;E01;Database migration e seed;P0;5;US-002;Da fare;Da assegnare
+US-005;E02;Registrazione giocatore;P0;5;US-004;Da fare;Da assegnare
+US-006;E02;Login e logout;P0;3;US-005;Da fare;Da assegnare
+US-007;E02;Recupero accesso;P2;5;US-006;Da fare;Da assegnare
+US-008;E02;Ruoli e autorizzazioni;P0;5;US-006;Da fare;Da assegnare
+US-009;E03;Visualizzazione profilo;P1;2;US-006;Da fare;Da assegnare
+US-010;E03;Modifica dati e preferenze;P1;3;US-009;Da fare;Da assegnare
+US-011;E04;Avvio sessione;P0;3;US-006;Da fare;Da assegnare
+US-012;E04;Esecuzione e score;P0;8;US-011;Da fare;Da assegnare
+US-013;E04;Risultato sessione;P0;3;US-012;Da fare;Da assegnare
+US-014;E04;Anti-abuso base sessioni;P1;5;US-012;Da fare;Da assegnare
+US-015;E05;Creazione wallet;P0;3;US-005;Da fare;Da assegnare
+US-016;E05;Ledger movimenti punti;P0;8;US-015;Da fare;Da assegnare
+US-017;E05;Accredito punti da gioco;P0;5;US-013, US-016;Da fare;Da assegnare
+US-018;E05;Missioni giornaliere;P1;8;US-017;Da fare;Da assegnare
+US-019;E05;Visualizzazione wallet;P1;3;US-016;Da fare;Da assegnare
+US-020;E06;Creazione campagna sponsor;P1;5;US-008;Da fare;Da assegnare
+US-021;E06;Visualizzazione Reward Center;P1;3;US-020;Da fare;Da assegnare
+US-022;E06;Opt-in reward;P1;5;US-021;Da fare;Da assegnare
+US-023;E06;Cap e cooldown;P1;5;US-022;Da fare;Da assegnare
+US-024;E06;Integrazione sponsor simulata;P0;3;US-022;Da fare;Da assegnare
+US-025;E07;Creazione premio;P0;5;US-008;Da fare;Da assegnare
+US-026;E07;Visualizzazione catalogo;P0;3;US-025, US-016;Da fare;Da assegnare
+US-027;E07;Verifica disponibilità premio;P0;5;US-025;Da fare;Da assegnare
+US-028;E08;Riscatto premio;P0;8;US-016, US-026, US-027;Da fare;Da assegnare
+US-029;E08;Generazione codice univoco;P0;3;US-028;Da fare;Da assegnare
+US-030;E08;Generazione QR;P1;3;US-029;Da fare;Da assegnare
+US-031;E08;Elenco coupon utente;P0;3;US-028;Da fare;Da assegnare
+US-032;E09;Ricerca coupon per codice;P0;3;US-029, US-008;Da fare;Da assegnare
+US-033;E09;Validazione QR/token;P1;5;US-030, US-032;Da fare;Da assegnare
+US-034;E09;Conferma redemption;P0;5;US-032;Da fare;Da assegnare
+US-035;E09;Storico redemption;P1;3;US-034;Da fare;Da assegnare
+US-036;E10;Dashboard KPI admin;P1;8;US-017, US-022, US-028, US-034, US-041;Da fare;Da assegnare
+US-037;E10;CRUD partner;P1;5;US-008;Da fare;Da assegnare
+US-038;E10;CRUD campagne;P1;5;US-020;Da fare;Da assegnare
+US-039;E10;CRUD premi;P1;5;US-025;Da fare;Da assegnare
+US-040;E10;Gestione utenti;P2;5;US-008, US-016;Da fare;Da assegnare
+US-041;E11;Event tracking standard;P0;5;US-001;Da fare;Da assegnare
+US-042;E11;Funnel beta;P1;5;US-041;Da fare;Da assegnare
+US-043;E11;Export dati beta;P2;3;US-041, US-036;Da fare;Da assegnare
+US-044;E12;Gestione consensi;P0;5;US-005, US-010;Da fare;Da assegnare
+US-045;E12;Protezione endpoint;P0;5;US-008;Da fare;Da assegnare
+US-046;E12;Audit operativo;P1;5;US-034, US-037, US-038, US-039;Da fare;Da assegnare
+US-047;E12;Backup e ripristino beta;P1;3;US-004;Da fare;Da assegnare
+US-048;E13;Test unitari dominio;P0;5;US-016, US-028, US-034;Da fare;Da assegnare
+US-049;E13;Test end-to-end;P0;8;US-006, US-013, US-028, US-034;Da fare;Da assegnare
+US-050;E13;Test responsive e accessibilità base;P1;5;frontend;Da fare;Da assegnare
+US-051;E13;Seed demo e ambiente pilot;P0;3;US-004, US-025, US-037;Da fare;Da assegnare
+US-052;E13;Raccolta feedback tester;P1;3;US-051;Da fare;Da assegnare
+US-053;E13;Release Beta v1;P0;5;US-003, US-047, US-049, US-050, US-051;Da fare;Da assegnare

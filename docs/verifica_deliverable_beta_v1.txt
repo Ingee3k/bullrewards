@@ -1,0 +1,6 @@
+schema_beta_v1.sql: ERRORE
+api_spec_beta_v1.md: ERRORE
+backend_fastapi_beta_v1_structure.md: OK
+implementazione_step_by_step_beta_v1.md: OK
+docker-compose.yml: OK
+pyproject.toml: OK
